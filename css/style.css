@@ -40,11 +40,23 @@ img{ max-width: 100%; display: block; }
   gap: 16px;
 }
 
-.logo{
+.logo {
   font-weight: 800;
-  letter-spacing: 0.2px;
+  font-size: 18px;
 }
-.logo span{ color: var(--accent); }
+
+.logo-demo {
+  color: #0f172a; /* black */
+}
+
+.logo-business {
+  color: #2f6bff; /* blue */
+}
+
+.logo-page {
+  color: #0f172a; /* black */
+}
+
 
 .menu-btn{
   display: none;
