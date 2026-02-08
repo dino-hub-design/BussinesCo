@@ -38,14 +38,16 @@ img{display:block;max-width:100%}
 
 /* Full-width bar, but with safe padding so logo isn't cut */
 .nav-inner{
-  max-width: 1100px;       /* keeps it aligned with content */
-  width: 92%;
+  max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
+  padding: 14px 24px;   /* THIS is the key */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 0;
-  gap: 16px;
+}
+
+ 
 }
 
 /* Logo */
@@ -336,3 +338,7 @@ h2{
   .hero-card img{height:260px}
   .grid-3,.grid-2,.stats,.contact-wrap{grid-template-columns:1fr}
 }
+.logo {
+  margin-right: auto;
+}
+
