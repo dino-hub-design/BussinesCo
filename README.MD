@@ -42,7 +42,6 @@ No frameworks or libraries used.
 ---
 
 ## 📂 Project Structure
-
 Demo-Bussines-Page/
 │
 ├── index.html
@@ -56,14 +55,6 @@ Demo-Bussines-Page/
 │
 └── js/
 └── script.js
-
----
-
-## 🚀 Getting Started
-
-### Clone the repository
-```bash
-git clone https://github.com/dino-hub-design/Demo-Bussines-Page.git
 Open locally
 
 Simply open index.html in your browser.
@@ -82,7 +73,7 @@ Folder: /root
 
 Save and open the generated link
 
-📌 Notes
+Notes
 
 The contact form is frontend-only (no backend or email service connected).
 
@@ -98,29 +89,8 @@ Practice projects
 
 Landing page concepts
 
-👤 Author
-
 Dino Studio
 Demo project created for learning, practice, and showcasing front-end development skills.
 
-📜 License
-
 This project is open for educational and demo purposes.
 You are free to modify and reuse it for personal or learning projects.
-
-
----
-
-### ✅ What this README gives you
-- Looks **professional on GitHub**
-- Explains the project clearly
-- Shows structure (important for recruiters)
-- Works perfectly with **GitHub Pages**
-- Clean and honest (demo form disclaimer)
-
-If you want, I can:
-- rewrite it in a **more portfolio / job-application tone**
-- add **screenshots section**
-- add a **“Future Improvements”** section
-
-Just tell me 👍
