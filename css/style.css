@@ -28,55 +28,46 @@ img{display:block;max-width:100%}
 
 /* ===== NAVBAR ===== */
 .navbar{
-  position:sticky;
-  top:0;
-  z-index:50;
-  background:rgba(255,255,255,.92);
-  backdrop-filter:blur(10px);
-  border-bottom:1px solid var(--line);
-  .nav-inner {
-  max-width: none;
-  padding: 14px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
 }
 
-}
+/* Full-width bar, but with safe padding so logo isn't cut */
 .nav-inner{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:14px 0;
-  gap:16px;
+  max-width: 1100px;       /* keeps it aligned with content */
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 16px;
 }
-.logo{
-  margin-left: -4%; /* move logo to far left */
- } 
+
+/* Logo */
 .logo{
   display:flex;
   align-items:center;
   gap:6px;
   font-weight:900;
-  letter-spacing:.2px;
   font-size:18px;
 }
-.logo .logo-demo{color:var(--text)}
-.logo .logo-business{color:var(--accent)}
-.logo .logo-page{color:var(--text)}
 
-.menu-btn{
-  display:none;
-  background:transparent;
-  border:1px solid var(--line);
-  border-radius:12px;
-  padding:8px 10px;
-  cursor:pointer;
-  font-weight:800;
-}
+.logo .logo-demo{ color: var(--text); }
+.logo .logo-business{ color: var(--accent); }
+.logo .logo-page{ color: var(--text); }
 
+/* Nav links */
 .nav-links{
   display:flex;
   align-items:center;
   gap:10px;
 }
+
 .nav-links a,
 .nav-links button{
   height:40px;
