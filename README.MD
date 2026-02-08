@@ -39,4 +39,25 @@ Navigation includes a **dropdown menu** under “Company” for easy access.
 ---
 
 ## 📂 Project Structure
+Demo-Bussines-Page/
+│
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── README.md
+│
+├── css/
+│ └── style.css
+│
+└── js/
+└── script.js
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dino-hub-design/Demo-Bussines-Page.git
 
