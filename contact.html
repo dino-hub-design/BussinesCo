@@ -5,21 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Demo Business Page | Contact</title>
   <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js" defer></script>
 </head>
 
 <body>
   <header class="navbar">
     <a class="logo" href="./index.html">Demo <span>Business</span></a>
+
     <button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
 
     <nav class="nav-links" id="navLinks">
       <a class="nav-item" href="./index.html">Home</a>
 
       <div class="dropdown">
-        <button class="dropbtn nav-item" type="button" aria-haspopup="true" aria-expanded="false">
+        <button class="dropbtn nav-item" type="button">
           Company <span class="chev">▼</span>
         </button>
-        <div class="dropdown-content" role="menu">
+        <div class="dropdown-content">
           <a href="./about.html">About</a>
           <a href="./services.html">Services</a>
           <a href="./contact.html">Contact</a>
@@ -48,12 +50,7 @@
           <h2>Quick Info</h2>
           <p><strong>Email:</strong> your@email.com</p>
           <p><strong>Location:</strong> Bosnia & Herzegovina</p>
-          <p class="muted small">This is a demo form (frontend). No backend connected.</p>
-
-          <div class="mini-card">
-            <h3>Typical Delivery</h3>
-            <p class="muted">3–7 days for a standard site.</p>
-          </div>
+          <p class="muted small">Demo form only (no backend connected).</p>
         </div>
       </div>
     </section>
@@ -62,27 +59,5 @@
   <footer class="footer">
     <p>© 2026 Demo Business Page. All rights reserved.</p>
   </footer>
-
-  <script>
-    const menuBtn = document.getElementById("menuBtn");
-    const navLinks = document.getElementById("navLinks");
-    menuBtn.addEventListener("click", () => navLinks.classList.toggle("open"));
-
-    const dropBtn = document.querySelector(".dropbtn");
-    const dropdown = document.querySelector(".dropdown");
-    dropBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      dropdown.classList.toggle("open");
-      dropBtn.setAttribute("aria-expanded", dropdown.classList.contains("open"));
-    });
-    document.addEventListener("click", () => {
-      dropdown.classList.remove("open");
-      dropBtn.setAttribute("aria-expanded", "false");
-    });
-
-    // Demo submit message (no backend)
-    const form = document.getElementById("contactForm");
-    const note = document.getElementById("formNote");
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      note.textContent = "✅ Message sent (demo). Connect backend to receive emails.";
+</body>
+</html>
