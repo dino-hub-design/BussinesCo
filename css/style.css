@@ -42,7 +42,9 @@ img{display:block;max-width:100%}
   padding:14px 0;
   gap:16px;
 }
-
+.logo{
+  margin-left: -4%; /* move logo to far left */
+ } 
 .logo{
   display:flex;
   align-items:center;
